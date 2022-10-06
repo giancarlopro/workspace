@@ -8,6 +8,7 @@ Workspace is a command line application to automate development startup.
 - [ ] `wsp create <name>` create workspace inside `$WSP_HOME`
 - [ ] read configuration from `$WSP_HOME/config.yml`
 - [ ] `wsp watch` wait a pid to terminate and shutdown a workspace
+- [ ] `wsp clone` clone a repository to your `$WSP_HOME` and creates a new workspace for it
 
 ## Workspaces
 
