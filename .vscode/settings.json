@@ -1,6 +1,29 @@
 {
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+  },
   "[markdown]": {
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 80
-  }
+    "editor.wordWrapColumn": 80,
+  },
+  "editor.rulers": [
+    79
+  ],
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.formatting.blackArgs": [
+    "--line-length",
+    "79",
+    "--experimental-string-processing",
+    "--preview"
+  ],
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
 }
