@@ -1,6 +1,6 @@
 root: /home/gian/work/workspace
 editor: code
 startup:
-  - echo "workspace open"
+  - echo "workspace open" >> wsp.log
 shutdown:
   - echo "workspace closed"
