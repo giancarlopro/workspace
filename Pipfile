@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 fire = "*"
 workspace = {editable = true, path = "."}
+pyyaml = "*"
 
 [dev-packages]
 black = "*"
