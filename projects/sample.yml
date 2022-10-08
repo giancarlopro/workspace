@@ -1,0 +1,6 @@
+root: /home/gian/work/workspace
+editor: code
+startup:
+  - echo "workspace open"
+shutdown:
+  - echo "workspace closed"
