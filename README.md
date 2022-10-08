@@ -7,13 +7,13 @@ Workspace is a command line application to automate development startup.
 ### curl
 
 ```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/giancarlorocha/workspace/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/giancarlopro/workspace/master/tools/install.sh)"
 ```
 
 ### wget
 
 ```
-sh -c "$(wget -O- https://raw.githubusercontent.com/giancarlorocha/workspace/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/giancarlopro/workspace/master/tools/install.sh)"
 ```
 
 ## Features
