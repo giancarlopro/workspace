@@ -2,6 +2,20 @@
 
 Workspace is a command line application to automate development startup.
 
+## Installation
+
+### curl
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/giancarlorocha/workspace/master/tools/install.sh)"
+```
+
+### wget
+
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/giancarlorocha/workspace/master/tools/install.sh)"
+```
+
 ## Features
 
 - [ ] `wsp <workspace>` open workspace folder using configured `$EDITOR`
